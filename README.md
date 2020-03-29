@@ -15,9 +15,11 @@ This paper presents Morphological Tessellation (MT), an objectively and universa
 Findings suggest that MT can be considered an efficient informational proxy for cadastral plots for many of the tested morphometric characters, that there are kinds of plot-scale information only plots can provide, as well as kinds only morphological tessellation can provide. Overall, there appears to be clear scope for application of MT as fundamental spatial unit of analysis in Urban Morphometrics, opening the way to large-scale urban morphometric analysis.
 
 ## Repository
-This repository contains all data and Python code used wihtin the research. Few minor steps were done in QGIS 3 and ArcMap 10.6, some figures were post-processed in Adobe Illustrator. Geospatial data layers are in the final version containing all relevant attrubutes.
+This repository contains Python code used wihtin the research. Few minor steps were done in QGIS 3 and ArcMap 10.6, some figures were post-processed in Adobe Illustrator. This repository does not contain complete data due to the size limitations. **Complete geospatial data are openly available from the University of Strathclyde KnowledgeBase at DOI.** together with an archived version of this repository.
 
-Python code is stored wihtin Jupyter notebooks. For the accessibility purposes, contents of notebooks were also exported into executable scripts and PDF. Data folder contains geospatial data of buildings, street network and morphological tessellattion (in all versions) of Zurich, Switzerland. Moreover, all data resulting from analysis described in the paper are stored in CSV.
+Python code is stored wihtin Jupyter notebooks. For the accessibility purposes, contents of notebooks were also exported into executable scripts and PDF. 
+
+Data folder contains all data resulting from analysis described in the paper are stored in CSV.
 
 Note: notebooks has been cleaned and released retroactively. It is likely that different versions of packages were initially used, but we made sure that the results remained unaltered.
 
@@ -36,20 +38,20 @@ data/
     times.csv - timer values from parameter tests
     Results_*.csv - results of comparitive analysis
     single_uids.csv - IDs of buildings being alone on a single plot (QGIS generated)
-    zurich.gpkg - input building data for tessellation
+    zurich.gpkg - input building data for tessellation (available at UoS KnowledgeBase)
     contiguity_diagram.gpkg - samples to be used in contiguity diagram
     
-    cadastre/
-        blg_cadvals.shp - cadastral values spatially joined to buildings
-        cadastre.shp - processed cadastral layer
-        Zurich_cadastre.shp - input cadastral layers
+    cadastre/ (available at UoS KnowledgeBase)
+        blg_cadvals.shp - cadastral values spatially joined to buildings (available at UoS KnowledgeBase)
+        cadastre.shp - processed cadastral layer (available at UoS KnowledgeBase)
+        Zurich_cadastre.shp - input cadastral layers (available at UoS KnowledgeBase)
         
-    network/
-        network.shp - street network data
-        + additional data used in ArcMap 10.6 UNA Toolkit
+    network/ (available at UoS KnowledgeBase)
+        network.shp - street network data (available at UoS KnowledgeBase)
+        + additional data used in ArcMap 10.6 UNA Toolkit (available at UoS KnowledgeBase)
         
-    tessellation/
-        {k}_tessellation.shp - tessellation layers
+    tessellation/ (available at UoS KnowledgeBase)
+        {k}_tessellation.shp - tessellation layers (available at UoS KnowledgeBase)
 ```
 
 ## License

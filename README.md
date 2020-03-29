@@ -17,7 +17,40 @@ Findings suggest that MT can be considered an efficient informational proxy for 
 ## Repository
 This repository contains all data and Python code used wihtin the research. Few minor steps were done in QGIS 3 and ArcMap 10.6, some figures were post-processed in Adobe Illustrator. Geospatial data layers are in the final version containing all relevant attrubutes.
 
+Python code is stored wihtin Jupyter notebooks. For the accessibility purposes, contents of notebooks were also exported into executable scripts and PDF. Data folder contains geospatial data of buildings, street network and morphological tessellattion (in all versions) of Zurich, Switzerland. Moreover, all data resulting from analysis described in the paper are stored in CSV.
+
 Note: notebooks has been cleaned and released retroactively. It is likely that different versions of packages were initially used, but we made sure that the results remained unaltered.
+
+
+## Data structure
+```
+*.ipynb
+    - Jupyter notebooks
+environment.yml
+    - conda environment specification to re-create reproducible Python environment
+data/
+    args_test.gpkg - data for parameter tests
+    areas.csv - area values from parameter tests
+    perimeters.csv - perimeter values from parameter tests
+    points.csv - point count values from parameter tests
+    times.csv - timer values from parameter tests
+    Results_*.csv - results of comparitive analysis
+    single_uids.csv - IDs of buildings being alone on a single plot (QGIS generated)
+    zurich.gpkg - input building data for tessellation
+    contiguity_diagram.gpkg - samples to be used in contiguity diagram
+    
+    cadastre/
+        blg_cadvals.shp - cadastral values spatially joined to buildings
+        cadastre.shp - processed cadastral layer
+        Zurich_cadastre.shp - input cadastral layers
+        
+    network/
+        network.shp - street network data
+        + additional data used in ArcMap 10.6 UNA Toolkit
+        
+    tessellation/
+        {k}_tessellation.shp - tessellation layers
+```
 
 ## License
 

@@ -1,0 +1,18 @@
+name: ceus
+channels:
+  - conda-forge
+  - defaults
+  - udst
+dependencies:
+  - jupyter
+  - scikit-learn=0.22.2.post1
+  - momepy=0.1.1
+  - pandas=1.0.3
+  - geopandas=0.7.0
+  - seaborn=0.10.0
+  - jupyterlab
+  - matplotlib
+  - scipy=1.4.1
+  - libpysal=4.2.2
+  - esda=2.2.1
+  - splot=1.1.3

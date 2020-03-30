@@ -3,6 +3,8 @@ Code and data repository for **Morphological tessellation as a way of partitioni
 
 Fleischmann, M., Feliciotti, A., Romice, O. and Porta, S. (2020) _‘Morphological tessellation as a way of partitioning space: Improving consistency in urban morphology at the plot scale’_, Computers, Environment and Urban Systems, 80, p. 101441. doi: [10.1016/j.compenvurbsys.2019.101441](http://doi.org/10.1016/j.compenvurbsys.2019.101441).
 
+Archived version of this repository is stored at the University of Strathclyde KnowledgeBase at DOI [10.15129/c766db26-3fa8-45c6-8218-098d529571fc](https://doi.org/10.15129/c766db26-3fa8-45c6-8218-098d529571fc).
+
 Contact: martin@martinfleischmann.net
 
 Date: 29/03/2020
@@ -15,7 +17,7 @@ This paper presents Morphological Tessellation (MT), an objectively and universa
 Findings suggest that MT can be considered an efficient informational proxy for cadastral plots for many of the tested morphometric characters, that there are kinds of plot-scale information only plots can provide, as well as kinds only morphological tessellation can provide. Overall, there appears to be clear scope for application of MT as fundamental spatial unit of analysis in Urban Morphometrics, opening the way to large-scale urban morphometric analysis.
 
 ## Repository
-This repository contains Python code used wihtin the research. Few minor steps were done in QGIS 3 and ArcMap 10.6, some figures were post-processed in Adobe Illustrator. This repository does not contain complete data due to the size limitations. **Complete geospatial data are openly available from the University of Strathclyde KnowledgeBase at DOI.** together with an archived version of this repository.
+This repository contains Python code used wihtin the research. Few minor steps were done in QGIS 3 and ArcMap 10.6, some figures were post-processed in Adobe Illustrator. This repository does not contain complete data due to the size limitations. **Complete geospatial data are openly available from the University of Strathclyde KnowledgeBase at DOI [10.15129/c766db26-3fa8-45c6-8218-098d529571fc](https://doi.org/10.15129/c766db26-3fa8-45c6-8218-098d529571fc).** together with an archived version of this repository.
 
 Python code is stored wihtin Jupyter notebooks. For the accessibility purposes, contents of notebooks were also exported into executable scripts and PDF. 
 
